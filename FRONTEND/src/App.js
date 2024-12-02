@@ -42,7 +42,9 @@ const App = () => {
                 <ProductManagemen />
               </ProtectedRoute>
             }
+            
           />
+          
           <Route
             path="/admin/products/add"
             element={

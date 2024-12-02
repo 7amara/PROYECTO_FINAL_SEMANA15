@@ -73,7 +73,7 @@ export const deleteProduct = async (id) => {
   });
 };
 
-//**************************** AUTH ************************************ */
+
 export const loginUser = async (credentials) => {
   const response = await fetch(`${BASE_URL}/auth/login`, {
     method: 'POST',
